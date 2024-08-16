@@ -1,6 +1,7 @@
 import '@umijs/max';
 import { Button, message, notification } from 'antd';
 import defaultSettings from '../config/defaultSettings';
+// 全局脚本文件
 const { pwa } = defaultSettings;
 const isHttps = document.location.protocol === 'https:';
 const clearCache = () => {
